@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /usr/share/biglinux/biglinux-games-settings/
+exec -a biglinux-games-settings python main.py

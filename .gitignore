@@ -1,0 +1,8 @@
+**/__pycache__/
+*.old
+*/*.old
+*.bkp
+*.bak
+.zed
+*/.zed
+**/biglinux-games-settings-ruscher/

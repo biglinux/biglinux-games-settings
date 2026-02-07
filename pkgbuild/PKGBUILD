@@ -1,23 +1,19 @@
-# Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
+# Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
-pkgname=biglinux-package-template
-pkgdesc="Package template for biglinux"
-# depends=('')
-# makedepends=('')
-# conflicts=('')
+pkgname=biglinux-games-settings
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
-license=('GPL3')
+license=('GPL')
+pkgdesc="Scripts and configuration files created in GTK4 that simplify switching BigLinux operation."
+depends=('gtk4' 'python' 'polkit' 'zenity')
 url="https://github.com/biglinux/$pkgname"
-provides=("$pkgname")
+conflicts=('biglinux-games-settings-gnome')
 source=("git+${url}.git")
-md5sums=('SKIP')
-if [ -e "${pkgname}.install" ];then
-    install=${pkgname}.install
-elif [ -e "pkgbuild.install" ];then
-    install=pkgbuild.install
-fi
+md5sums=(SKIP)
+# if [ -e "${pkgname}.install" ];then
+#     install=${pkgname}.install
+# fi
 
 package() {
     # Verify default folder
@@ -40,3 +36,4 @@ package() {
         cp -r "${InternalDir}/opt" "${pkgdir}/"
     fi
 }
+
