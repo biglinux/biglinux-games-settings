@@ -11,6 +11,7 @@ import os
 from gi.repository import Adw, Gdk, Gio, GLib, Gtk
 
 from performance_page import PerformancePage
+# from games_page import GamesPage
 
 DOMAIN = "biglinux-games-settings"
 LOCALE_DIR = "/usr/share/locale"
@@ -230,6 +231,12 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
                 "id": "performance",
                 "class": PerformancePage,
             },
+            # {
+            #     "label": _("Games"),
+            #     "icon": "games-symbolic",
+            #     "id": "games",
+            #     "class": GamesPage,
+            # },
         ]
 
         for page in self.pages_config:
