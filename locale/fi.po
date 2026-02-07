@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-games-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-games-settings\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+msgid "Example Install"
+msgstr "Esimerkkiasennus"
+msgid "Instaling Example, Please wait..."
+msgstr "Asennetaan esimerkkiä, ole hyvä ja odota..."
+msgid "Example Uninstall"
+msgstr "Esimerkki poista asennus"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Poistetaan esimerkkiä, ole hyvä ja odota..."
+msgid "Example installed successfully!"
+msgstr "Esimerkki asennettiin onnistuneesti!"
+msgid "Failed to install Example!"
+msgstr "Esimerkin asennus epäonnistui!"
+msgid "Applying, please wait..."
+msgstr "Käytetään, ole hyvä ja odota..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB päivitettiin onnistuneesti!\\n"
+"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
+msgid "An error occurred while updating GRUB."
+msgstr "Päivityksessä tapahtui virhe GRUB:issa."
+msgid "Already enabled. No changes made."
+msgstr "Jo käytössä. Ei muutoksia tehty."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
+msgid "Unavailable: script not found."
+msgstr "Ei saatavilla: skriptiä ei löytynyt."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 237
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 279
+msgid "Script not found: {}"
+msgstr "Skriptiä ei löytynyt: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 247
+msgid "Enabled"
+msgstr "Oma käytössä"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 249
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 255
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 259
+msgid "Unavailable: script returned invalid output."
+msgstr "Ei saatavilla: skripti palautti virheellistä tulostetta."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "skriptin tulos {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 267
+msgid "Unavailable: script returned an error."
+msgstr "Ei saatavilla: skripti palautti virheen."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 268
+msgid "Error checking state: {}"
+msgstr "Virheen tarkistustila: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 271
+msgid "Unavailable: failed to run script."
+msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 272
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 317
+msgid "Error running script {}: {}"
+msgstr "Virhe skriptin suorittamisessa {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 293
+msgid "State changed successfully"
+msgstr "Tila muutettu onnistuneesti"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 295
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 299
+msgid "Script failed with exit code: {}"
+msgstr "Skripti epäonnistui poistumiskoodilla: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 313
+msgid "Script timeout: {}"
+msgstr "Skripti aikakatkaisu: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 362
+msgid "Switch {} synchronized: {}"
+msgstr "Vaihda {} synkronoitu: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 391
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikaattori {} synkronoitu: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 409
+msgid "Changing {} to {}"
+msgstr "Muutetaan {} {}:ksi"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 424
+msgid "ERROR: Failed to change {} to {}"
+msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 428
+msgid "Failed to change setting: {}"
+msgstr "Asetuksen muuttaminen epäonnistui: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 46
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 152
+msgid "BigLinux Games Settings"
+msgstr "BigLinux Peliasetukset"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 167
+msgid "Categories"
+msgstr "Kategoriat"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 176
+msgid "Search..."
+msgstr "Etsi..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 222
+msgid "Settings"
+msgstr "Asetukset"
+# 
+# #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 228
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
+msgid "Performance"
+msgstr "Suorituskyky"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux-suorituskyvyn säätöjä."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 34
+msgid "Disable Visual Effects"
+msgstr "Poista visuaaliset tehosteet käytöstä"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Poistaa käytöstä KWinin visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU:n "
+"kuormitusta ja vapauttaa muistia."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 50
+msgid "CPU Maximum Performance"
+msgstr "CPU:n maksimaalinen suorituskyky"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Pakottaa prosessorin maksimisuorituskykytilaan. Varmistaa, että prosessori käyttää maksimi "
+"taajuutta."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 66
+msgid "Disable Baloo Indexer"
+msgstr "Poista Baloo-indeksoija käytöstä"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Poistaa käytöstä Baloo-tiedostoindexerin. Vältetään levyn I/O-ylikuormitusta."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 74
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Purkaa S.M.A.R.T Monitor"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 75
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Poistaa käytöstä S.M.A.R.T-levyn valvonnan. Vähentää levyn I/O:ta ja CPU:n käyttöä."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 83
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-mitigoinnit pois päältä"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 84
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Käyttämällä mitigations=off nopeutat konettasi, mutta se on vähemmän turvallinen! Lisätietoja saat "
+"osoitteesta: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 91
+msgid "noWatchdog"
+msgstr "eiValvoja"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 92
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Poistaa käytöstä laitteiston valvontakellon ja TSC-aikakellolähteet, säilyttäen korkean "
+"suorituskyvyn mutta poistaen automaattiset suojat järjestelmän kaatumisia vastaan."

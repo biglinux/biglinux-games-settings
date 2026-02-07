@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-games-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-games-settings\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+msgid "Example Install"
+msgstr "Voorbeeld Installeren"
+msgid "Instaling Example, Please wait..."
+msgstr "Voorbeeld installeren, even geduld..."
+msgid "Example Uninstall"
+msgstr "Voorbeeld de-installeren"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Voorbeeld de-installeren, even geduld..."
+msgid "Example installed successfully!"
+msgstr "Voorbeeld succesvol geïnstalleerd!"
+msgid "Failed to install Example!"
+msgstr "Installatie van Voorbeeld mislukt!"
+msgid "Applying, please wait..."
+msgstr "Toepassen, even geduld..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB succesvol bijgewerkt!\\n"
+"Herstart uw computer om de wijzigingen door te voeren."
+msgid "An error occurred while updating GRUB."
+msgstr "Er is een fout opgetreden tijdens het bijwerken van GRUB."
+msgid "Already enabled. No changes made."
+msgstr "Alreeds ingeschakeld. Geen wijzigingen aangebracht."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
+msgid "Unavailable: script not found."
+msgstr "Niet beschikbaar: script niet gevonden."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 237
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 279
+msgid "Script not found: {}"
+msgstr "Script niet gevonden: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 247
+msgid "Enabled"
+msgstr "Ingeschakeld"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 249
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 255
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Ingeschakeld door systeemconfiguratie (bijv. Real-Time Kernel) en kan hier niet worden gewijzigd."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 259
+msgid "Unavailable: script returned invalid output."
+msgstr "Niet beschikbaar: script gaf ongeldige uitvoer terug."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "output van script {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 267
+msgid "Unavailable: script returned an error."
+msgstr "Niet beschikbaar: script heeft een fout geretourneerd."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 268
+msgid "Error checking state: {}"
+msgstr "Fout controle toestand: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 271
+msgid "Unavailable: failed to run script."
+msgstr "Niet beschikbaar: script kon niet worden uitgevoerd."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 272
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 317
+msgid "Error running script {}: {}"
+msgstr "Fout bij het uitvoeren van script {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 293
+msgid "State changed successfully"
+msgstr "Status succesvol gewijzigd"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 295
+msgid "Script output: {}"
+msgstr "Script-uitvoer: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 299
+msgid "Script failed with exit code: {}"
+msgstr "Script is mislukt met exitcode: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 313
+msgid "Script timeout: {}"
+msgstr "Script time-out: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 362
+msgid "Switch {} synchronized: {}"
+msgstr "Schakel {} gesynchroniseerd: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 391
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicator {} gesynchroniseerd: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 409
+msgid "Changing {} to {}"
+msgstr "Veranderen van {} naar {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 424
+msgid "ERROR: Failed to change {} to {}"
+msgstr "FOUT: Kon {} niet wijzigen in {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 428
+msgid "Failed to change setting: {}"
+msgstr "Instelling wijzigen mislukt: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 46
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 152
+msgid "BigLinux Games Settings"
+msgstr "BigLinux Spelinstellingen"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 167
+msgid "Categories"
+msgstr "Categorieën"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 176
+msgid "Search..."
+msgstr "Zoeken..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 222
+msgid "Settings"
+msgstr "Instellingen"
+# 
+# #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 228
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
+msgid "Performance"
+msgstr "Prestaties"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux prestatieverbeteringen."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 34
+msgid "Disable Visual Effects"
+msgstr "Schakel visuele effecten uit"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Schakelt KWin visuele effecten uit (vervaging, schaduwen, animaties). Vermindert de GPU-belasting "
+"en maakt geheugen vrij."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 50
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximale Prestaties"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Dwingt de maximale processorprestaties modus af. Zorgt ervoor dat de processor de maximale "
+"frequentie gebruikt."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 66
+msgid "Disable Baloo Indexer"
+msgstr "Schakel Baloo-indexeer uit"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Schakelt de Baloo-bestandsindexer uit. Vermijdt schijf I/O-overhead."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 74
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Laad S.M.A.R.T Monitor niet."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 75
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Schakelt S.M.A.R.T-schijfmonitoring uit. Vermindert schijf I/O en CPU-gebruik."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 83
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-mitigaties uit"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 84
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Het gebruik van mitigaties=uit maakt uw machine sneller en minder veilig! Voor meer informatie zie: "
+"<a href='{l}'>{l}</a>"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 91
+msgid "noWatchdog"
+msgstr "geenToezichthond"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 92
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Schakelt de hardware watchdog en TSC-tijdbron systemen uit, behoudt hoge prestaties maar verwijdert "
+"automatische bescherming tegen systeemcrashes."

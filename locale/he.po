@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-games-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-games-settings\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+msgid "Example Install"
+msgstr "התקנה לדוגמה"
+msgid "Instaling Example, Please wait..."
+msgstr "מתקין דוגמה, אנא המתן..."
+msgid "Example Uninstall"
+msgstr "דוגמה להסרה"
+msgid "Uninstaling Example, Please wait..."
+msgstr "מניחים דוגמה, אנא המתן..."
+msgid "Example installed successfully!"
+msgstr "הדוגמה הותקנה בהצלחה!"
+msgid "Failed to install Example!"
+msgstr "ההתקנה של דוגמה נכשלה!"
+msgid "Applying, please wait..."
+msgstr "ממתין, אנא המתן..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB עודכן בהצלחה!\\n"
+"אתחל את המחשב שלך כדי שזה ייכנס לתוקף."
+msgid "An error occurred while updating GRUB."
+msgstr "אירעה שגיאה בעת עדכון GRUB."
+msgid "Already enabled. No changes made."
+msgstr "כבר מופעל. לא בוצעו שינויים."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
+msgid "Unavailable: script not found."
+msgstr "לא זמין: הסקריפט לא נמצא."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 237
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 279
+msgid "Script not found: {}"
+msgstr "סקריפט לא נמצא: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 247
+msgid "Enabled"
+msgstr "מופעל"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 249
+msgid "Disabled"
+msgstr "מושבת"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 255
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "מופעל על ידי תצורת המערכת (למשל, ליבת זמן אמת) ואינו יכול להשתנות כאן."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 259
+msgid "Unavailable: script returned invalid output."
+msgstr "לא זמין: הסקריפט החזיר פלט לא תקין."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "פלט מהסקריפט {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 267
+msgid "Unavailable: script returned an error."
+msgstr "לא זמין: הסקריפט החזיר שגיאה."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 268
+msgid "Error checking state: {}"
+msgstr "שגיאת בדיקת מצב: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 271
+msgid "Unavailable: failed to run script."
+msgstr "לא זמין: נכשל בהרצת הסקריפט."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 272
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 317
+msgid "Error running script {}: {}"
+msgstr "שגיאה בהרצת סקריפט {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 293
+msgid "State changed successfully"
+msgstr "המצב שונה בהצלחה"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 295
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 299
+msgid "Script failed with exit code: {}"
+msgstr "הסקריפט נכשל עם קוד יציאה: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 313
+msgid "Script timeout: {}"
+msgstr "זמן ההמתנה של הסקריפט: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 362
+msgid "Switch {} synchronized: {}"
+msgstr "מחלף {} מסונכרן: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 391
+msgid "Indicator {} synchronized: {}"
+msgstr "אינדיקטור {} מסונכרן: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 409
+msgid "Changing {} to {}"
+msgstr "שינוי {} ל{}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 424
+msgid "ERROR: Failed to change {} to {}"
+msgstr "שגיאה: לא הצליח לשנות {} ל{}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 428
+msgid "Failed to change setting: {}"
+msgstr "שינוי ההגדרה נכשל: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 46
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 152
+msgid "BigLinux Games Settings"
+msgstr "הגדרות משחקי BigLinux"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 167
+msgid "Categories"
+msgstr "קטגוריות"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 176
+msgid "Search..."
+msgstr "חפש..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 222
+msgid "Settings"
+msgstr "הגדרות"
+# 
+# #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 228
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
+msgid "Performance"
+msgstr "ביצועים"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "שיפורי ביצועים של BigLinux."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 34
+msgid "Disable Visual Effects"
+msgstr "כבה אפקטים חזותיים"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "מכבה את אפקטי הוויזואליים של KWin (טשטוש, צללים, אנימציות). מפחית את העומס על ה-GPU ומשחרר זיכרון."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 50
+msgid "CPU Maximum Performance"
+msgstr "ביצועי מעבד מקסימליים"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "כוח מצב ביצוע מקסימלי של המעבד. מבטיח שהמעבד משתמש בתדירות המקסימלית."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 66
+msgid "Disable Baloo Indexer"
+msgstr "השבת את אינדקסר בלו"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "מכבה את אינדקס הקבצים של בלו. נמנע מעומס I/O בדיסק."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 74
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "פרוק מוניטור S.M.A.R.T"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 75
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "מנכה את ניטור הדיסק S.M.A.R.T. מפחית את השימוש בדיסק I/O ובמעבד."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 83
+msgid "Meltdown Mitigations off"
+msgstr "הפחתות של מלטדאון כבויות"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 84
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"שימוש ב-mitigations=off יגרום למכונה שלך לפעול מהר יותר ופחות מאובטחת! למידע נוסף ראה: <a "
+"href='{l}'>{l}</a>"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 91
+msgid "noWatchdog"
+msgstr "לא מעקב"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 92
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"מכבה את מערכת השמירה החומרתית ואת מקורות השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות אוטומטיות "
+"מפני קריסות מערכת."

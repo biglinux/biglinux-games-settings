@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-games-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-games-settings\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+msgid "Example Install"
+msgstr "Exemplu Instalare"
+msgid "Instaling Example, Please wait..."
+msgstr "Instalare Exemplu, Vă rugăm să așteptați..."
+msgid "Example Uninstall"
+msgstr "Exemplu Dezinstalare"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Dezinstalare Exemplu, Vă rugăm să așteptați..."
+msgid "Example installed successfully!"
+msgstr "Exemplul a fost instalat cu succes!"
+msgid "Failed to install Example!"
+msgstr "Instalarea Exemplului a eșuat!"
+msgid "Applying, please wait..."
+msgstr "Se aplică, vă rugăm să așteptați..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB actualizat cu succes!\\n"
+"Reporniți computerul pentru a aplica modificările."
+msgid "An error occurred while updating GRUB."
+msgstr "A apărut o eroare în timpul actualizării GRUB."
+msgid "Already enabled. No changes made."
+msgstr "Deja activat. Nici o modificare efectuată."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
+msgid "Unavailable: script not found."
+msgstr "Indisponibil: scriptul nu a fost găsit."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 237
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 279
+msgid "Script not found: {}"
+msgstr "Scriptul nu a fost găsit: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 247
+msgid "Enabled"
+msgstr "Activat"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 249
+msgid "Disabled"
+msgstr "Dezactivat"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 255
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Activat de configurația sistemului (de exemplu, Kernel în timp real) și nu poate fi modificat aici."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 259
+msgid "Unavailable: script returned invalid output."
+msgstr "Indisponibil: scriptul a returnat un output invalid."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "ieșire din script {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 267
+msgid "Unavailable: script returned an error."
+msgstr "Indisponibil: scriptul a returnat o eroare."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 268
+msgid "Error checking state: {}"
+msgstr "Verificarea erorii stării: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 271
+msgid "Unavailable: failed to run script."
+msgstr "Indisponibil: a eșuat la rularea scriptului."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 272
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 317
+msgid "Error running script {}: {}"
+msgstr "Eroare la rularea scriptului {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 293
+msgid "State changed successfully"
+msgstr "Starea a fost schimbată cu succes."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 295
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 299
+msgid "Script failed with exit code: {}"
+msgstr "Scriptul a eșuat cu codul de ieșire: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 313
+msgid "Script timeout: {}"
+msgstr "Timp de așteptare script: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 362
+msgid "Switch {} synchronized: {}"
+msgstr "Comutare {} sincronizat: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 391
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicator {} sincronizat: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 409
+msgid "Changing {} to {}"
+msgstr "Schimbarea {} în {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 424
+msgid "ERROR: Failed to change {} to {}"
+msgstr "EROARE: Nu s-a reușit schimbarea {} în {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 428
+msgid "Failed to change setting: {}"
+msgstr "Eșec la schimbarea setării: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 46
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 152
+msgid "BigLinux Games Settings"
+msgstr "Setări jocuri BigLinux"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 167
+msgid "Categories"
+msgstr "Categorii"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 176
+msgid "Search..."
+msgstr "Caută..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 222
+msgid "Settings"
+msgstr "Setări"
+# 
+# #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 228
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
+msgid "Performance"
+msgstr "Performanță"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "Optimizări de performanță BigLinux."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 34
+msgid "Disable Visual Effects"
+msgstr "Dezactivează efectele vizuale"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Dezactivează efectele vizuale KWin (blur, umbre, animații). Reduce încărcarea GPU-ului și "
+"eliberează memorie."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 50
+msgid "CPU Maximum Performance"
+msgstr "Performanță maximă CPU"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Forțează modul de performanță maximă a procesorului. Asigură că procesorul utilizează frecvența "
+"maximă."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 66
+msgid "Disable Baloo Indexer"
+msgstr "Dezactivează Indexerul Baloo"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Dezactivează indexatorul de fișiere Baloo. Evită suprasarcina I/O pe disc."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 74
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Descărcați Monitorul S.M.A.R.T"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 75
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Dezactivează monitorizarea S.M.A.R.T a discului. Reduce I/O-ul discului și utilizarea CPU-ului."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 83
+msgid "Meltdown Mitigations off"
+msgstr "Mitigări pentru Meltdown dezactivate"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 84
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Folosirea mitigărilor=dezactivat va face ca mașina ta să fie mai rapidă și mai puțin sigură! Pentru "
+"mai multe informații, vezi: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 91
+msgid "noWatchdog"
+msgstr "fărăSupraveghere"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 92
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Dezactivează sistemele de supraveghere hardware și sursa de ceas TSC, menținând performanțe "
+"ridicate, dar eliminând protecțiile automate împotriva blocărilor sistemului."

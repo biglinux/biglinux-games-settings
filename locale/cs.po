@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-games-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-games-settings\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+msgid "Example Install"
+msgstr "Příklad instalace"
+msgid "Instaling Example, Please wait..."
+msgstr "Instalace příkladu, prosím čekejte..."
+msgid "Example Uninstall"
+msgstr "Příklad odinstalace"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Odinstalovávání příkladu, prosím čekejte..."
+msgid "Example installed successfully!"
+msgstr "Příklad byl úspěšně nainstalován!"
+msgid "Failed to install Example!"
+msgstr "Instalace příkladu se nezdařila!"
+msgid "Applying, please wait..."
+msgstr "Aplikuji, prosím čekejte..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB byl úspěšně aktualizován!\\n"
+"Restartujte počítač, aby se změny projevily."
+msgid "An error occurred while updating GRUB."
+msgstr "Při aktualizaci GRUBu došlo k chybě."
+msgid "Already enabled. No changes made."
+msgstr "Již povoleno. Žádné změny nebyly provedeny."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
+msgid "Unavailable: script not found."
+msgstr "Nedostupné: skript nebyl nalezen."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 237
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 279
+msgid "Script not found: {}"
+msgstr "Skript nenalezen: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 247
+msgid "Enabled"
+msgstr "Povoleno"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 249
+msgid "Disabled"
+msgstr "Zakázáno"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 255
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Povoleno systémovou konfigurací (např. jádro v reálném čase) a nelze to zde změnit."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 259
+msgid "Unavailable: script returned invalid output."
+msgstr "Nedostupné: skript vrátil neplatný výstup."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "výstup ze skriptu {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 267
+msgid "Unavailable: script returned an error."
+msgstr "Nedostupné: skript vrátil chybu."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 268
+msgid "Error checking state: {}"
+msgstr "Chyba při kontrole stavu: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 271
+msgid "Unavailable: failed to run script."
+msgstr "Nedostupné: selhalo spuštění skriptu."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 272
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 317
+msgid "Error running script {}: {}"
+msgstr "Chyba při spuštění skriptu {}: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 293
+msgid "State changed successfully"
+msgstr "Stav se úspěšně změnil"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 295
+msgid "Script output: {}"
+msgstr "Výstup skriptu: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 299
+msgid "Script failed with exit code: {}"
+msgstr "Skript selhal s kódem ukončení: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 313
+msgid "Script timeout: {}"
+msgstr "Časový limit skriptu: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 362
+msgid "Switch {} synchronized: {}"
+msgstr "Přepnout {} synchronizováno: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 391
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikátor {} synchronizován: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 409
+msgid "Changing {} to {}"
+msgstr "Změna {} na {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 424
+msgid "ERROR: Failed to change {} to {}"
+msgstr "CHYBA: Nepodařilo se změnit {} na {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 428
+msgid "Failed to change setting: {}"
+msgstr "Nepodařilo se změnit nastavení: {}"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 46
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 152
+msgid "BigLinux Games Settings"
+msgstr "Nastavení her BigLinux"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 167
+msgid "Categories"
+msgstr "Kategorie"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 176
+msgid "Search..."
+msgstr "Hledat..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 222
+msgid "Settings"
+msgstr "Nastavení"
+# 
+# #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 228
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
+msgid "Performance"
+msgstr "Výkon"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "Vylepšení výkonu BigLinux."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 34
+msgid "Disable Visual Effects"
+msgstr "Zakázat vizuální efekty"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "Zakáže vizuální efekty KWin (rozostření, stíny, animace). Snižuje zátěž GPU a uvolňuje paměť."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 50
+msgid "CPU Maximum Performance"
+msgstr "Maximální výkon CPU"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Nastaví maximální výkon procesoru. Zajišťuje, že procesor používá maximální frekvenci."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 66
+msgid "Disable Baloo Indexer"
+msgstr "Deaktivovat indexátor Baloo"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Zakáže indexátor souborů Baloo. Vyhýbá se zátěži I/O na disku."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 74
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Uvolnit S.M.A.R.T Monitor"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 75
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Zakáže monitorování disku S.M.A.R.T. Snižuje I/O disku a využití CPU."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 83
+msgid "Meltdown Mitigations off"
+msgstr "Omezení Meltdown vypnuta"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 84
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Použití mitigations=off zrychlí váš stroj, ale sníží jeho bezpečnost! Pro více informací viz: <a "
+"href='{l}'>{l}</a>"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 91
+msgid "noWatchdog"
+msgstr "bezHlídače"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 92
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Deaktivuje systémy hardwarového watchdogu a hodinového zdroje TSC, udržuje vysoký výkon, ale "
+"odstraňuje automatické ochrany proti selhání systému."
