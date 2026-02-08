@@ -38,6 +38,14 @@ msgid "An error occurred while updating GRUB."
 msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
 msgid "Already enabled. No changes made."
 msgstr "Već omogućeno. Nema promjena."
+msgid "GameMode Install"
+msgstr "Instalacija Načina Igranja"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Instaliranje GameMode-a, molimo pričekajte..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode je uspješno instaliran!"
+msgid "Failed to install GameMode!"
+msgstr "Instalacija GameMode-a nije uspjela!"
 # 
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
 msgid "Unavailable: script not found."
@@ -207,3 +215,391 @@ msgid ""
 msgstr ""
 "Onemogućuje hardverski nadzor i TSC izvor vremena, održavajući visoke performanse, ali uklanjajući "
 "automatske zaštite od rušenja sustava."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 15
+msgid "GameMode Configuration"
+msgstr "Konfiguracija načina igre"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 57
+msgid "Restore Defaults"
+msgstr "Vrati zadane postavke"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 62
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 500
+msgid "Close"
+msgstr "Zatvori"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 108
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 545
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 546
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 573
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 574
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 670
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 672
+msgid "Error"
+msgstr "Greška"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 123
+msgid "General Settings"
+msgstr "Opća postavke"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 124
+msgid "Power governors and platform profiles."
+msgstr "Upravitelji snage i platformski profili."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 132
+msgid "CPU Governor: Performance"
+msgstr "CPU Guverner: Performanse"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 133
+msgid "Sets the CPU governor to 'performance' when GameMode is active."
+msgstr "Postavlja CPU guvernera na 'performanse' kada je GameMode aktivan."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 142
+msgid "Platform Profile: Performance"
+msgstr "Profil platforme: Performanse"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 143
+msgid "Sets the platform profile to 'performance' for maximum power."
+msgstr "Postavlja profil platforme na 'performanse' za maksimalnu snagu."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 153
+msgid "iGPU Governor: Powersave"
+msgstr "iGPU Guverner: Ušteda energije"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 154
+msgid "Sets iGPU governor to powersave when under heavy load to balance power."
+msgstr ""
+"Postavlja iGPU guvernera na uštedu energije kada je pod velikim opterećenjem kako bi se "
+"uravnotežila potrošnja energije."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 161
+msgid "CPU Optimizations"
+msgstr "Optimizacije CPU-a"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 171
+msgid "Pin Cores (P-Cores)"
+msgstr "Pin jezgre (P-jezgre)"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 172
+msgid ""
+"Keeps game threads fixed on high-performance cores, preventing the kernel from moving the game to "
+"slow cores (E-cores) mid-action."
+msgstr ""
+"Drži igre na visokoučinkovitim jezgrama, sprječavajući kernel da premjesti igru na spore jezgre "
+"(E-jezgre) tijekom akcije."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 182
+msgid "Park Efficiency Cores"
+msgstr "Jezgra učinkovitosti parka"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 183
+msgid "Temporarily 'turns off' efficiency cores so the OS doesn't try to use them for the game."
+msgstr "Privremeno 'isključuje' jezgre učinkovitosti kako bi OS nije pokušavao koristiti ih za igru."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 193
+msgid "AMD X3D Mode: Frequency"
+msgstr "AMD X3D način: Frekvencija"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 194
+msgid "Shifts processes to frequency CCD while gaming. For 7950X3D/9950X3D."
+msgstr "Premješta procese na frekvenciju CCD tijekom igranja. Za 7950X3D/9950X3D."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 203
+msgid "Soft Realtime Scheduling"
+msgstr "Meko stvarno vrijeme raspoređivanja"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 204
+msgid "Enables SCHED_ISO on supported kernels for reduced latency. 'auto' enables with 4+ cores."
+msgstr "Omogućuje SCHED_ISO na podržanim kernelima za smanjenu latenciju. 'auto' omogućuje s 4+ jezgri."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 213
+msgid "Renice Game Process"
+msgstr "Promijeni prioritet igre"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 214
+msgid "Adjusts process priority for the game. Value 10 gives higher priority (requires gamemode group)."
+msgstr "Podešava prioritet procesa za igru. Vrijednost 10 daje viši prioritet (zahtijeva grupu načina igre)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 223
+msgid "I/O Priority: Maximum"
+msgstr "Prioritet I/O: Maksimalna"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 224
+msgid "Sets I/O priority to BE/0 (highest). Improves disk access for the game."
+msgstr "Postavlja I/O prioritet na BE/0 (najviši). Poboljšava pristup disku za igru."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 231
+msgid "GPU Optimizations"
+msgstr "Optimizacije GPU-a"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 240
+msgid "Enable GPU Optimizations"
+msgstr "Omogući GPU optimizacije"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 241
+msgid "⚠️ Use at your own risk! Enables GPU overclocks and power settings."
+msgstr "⚠️ Koristite na vlastitu odgovornost! Omogućuje overclocking GPU-a i postavke napajanja."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 255
+msgid "NVIDIA: Prefer Maximum Performance"
+msgstr "NVIDIA: Preferir Maksimalne Performanse"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 256
+msgid "Sets GPUPowerMizerMode to 1 (Prefer Maximum Performance). Requires coolbits (X11 Only)."
+msgstr ""
+"Postavlja GPUPowerMizerMode na 1 (Preferiraj maksimalne performanse). Potrebni su coolbits (samo "
+"X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 264
+msgid "NVIDIA: Core Clock Offset"
+msgstr "NVIDIA: Offset jezgre sata"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 265
+msgid "Adds MHz offset to core clock. Set to enable +100MHz offset (X11 Only)."
+msgstr "Dodaje MHz pomak na jezgru. Postavite za omogućavanje +100MHz pomaka (samo X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 273
+msgid "NVIDIA: Memory Clock Offset"
+msgstr "NVIDIA: Pomak za memorijski sat"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 274
+msgid "Adds MHz offset to memory clock. Set to enable +200MHz offset (X11 Only)."
+msgstr "Dodaje MHz pomak na memorijski sat. Postavite za omogućavanje +200MHz pomaka (samo X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 280
+msgid "NVIDIA Options Unavailable"
+msgstr "NVIDIA opcije nisu dostupne"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 281
+msgid "NVIDIA GameMode optimizations require an X11 session. You are currently using Wayland."
+msgstr "NVIDIA GameMode optimizacije zahtijevaju X11 sesiju. Trenutno koristite Wayland."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 292
+msgid "AMD: High Performance Level"
+msgstr "AMD: Visoka razina performansi"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 293
+msgid "Sets power_dpm_force_performance_level to 'high'. Forces max clocks."
+msgstr "Postavlja power_dpm_force_performance_level na 'visoko'. Prisiljava maksimalne taktile."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 300
+msgid "System Settings"
+msgstr "Postavke sustava"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 301
+msgid "Screen and system-level optimizations."
+msgstr "Optimizacije na razini zaslona i sustava."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 309
+msgid "Inhibit Screensaver"
+msgstr "Onemogući zaštitu od zaslona"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 310
+msgid "Prevents screensaver from activating while GameMode is active."
+msgstr "Sprječava aktivaciju zaštitnog ekrana dok je GameMode aktivan."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 319
+msgid "Disable Split Lock Mitigation"
+msgstr "Onemogući ublažavanje podjele zaključavanja"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 320
+msgid "Linux has split lock protection that can cause microsecond delays. Disabling removes this 'brake'."
+msgstr ""
+"Linux ima zaštitu od podijeljenih zaključavanja koja može uzrokovati mikrosekundne kašnjenja. "
+"Onemogućavanje uklanja ovu 'kočnicu'."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 331
+msgid "Intel Hybrid CPU detected (12th+ gen). Core pinning and parking available."
+msgstr "Otkriven Intel Hybrid CPU (12. generacija i novije). Dostupno je pinovanje i parkiranje jezgri."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 334
+msgid "AMD X3D Dual CCD detected. V-Cache and X3D mode optimizations available."
+msgstr "Otkriven AMD X3D Dual CCD. Dostupne optimizacije za V-Cache i X3D način rada."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 335
+msgid "AMD X3D CPU detected. Core pinning available for V-Cache optimization."
+msgstr "Otkriven AMD X3D CPU. Dostupno je vezivanje jezgri za optimizaciju V-Cache-a."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 337
+msgid "Standard CPU detected. Basic scheduling optimizations available."
+msgstr "Otkriven standardni CPU. Dostupne osnovne optimizacije raspoređivanja."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 355
+msgid "{} ⚠️ Overclocking at your own risk!"
+msgstr "{} ⚠️ Overclockanje na vlastitu odgovornost!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 415
+msgid "Restore Defaults?"
+msgstr "Vratiti zadane postavke?"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 416
+msgid ""
+"This will reset all GameMode configurations to their default values. Custom scripts and "
+"optimizations will be overwritten."
+msgstr ""
+"Ovo će resetirati sve konfiguracije GameMode-a na njihove zadane vrijednosti. Prilagođeni skripti i "
+"optimizacije bit će prebrisani."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 418
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 619
+msgid "Cancel"
+msgstr "Otkaži"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 419
+msgid "Restore"
+msgstr "Vrati"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 439
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 827
+msgid "Configure Steam"
+msgstr "Konfigurirajte Steam"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 479
+msgid "Installed Games"
+msgstr "Instalirane igre"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 494
+msgid "Apply Changes"
+msgstr "Primijeni promjene"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 524
+msgid "Loading..."
+msgstr "Učitavanje..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+msgid "Failed to load games list."
+msgstr "Neuspjeh pri učitavanju popisa igara."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 532
+msgid "Error loading games"
+msgstr "Greška pri učitavanju igara"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Games Found"
+msgstr "Nema pronađenih igara"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Steam games found."
+msgstr "Nema pronađenih Steam igara."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 538
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 567
+msgid "0 games found"
+msgstr "0 igara pronađeno"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 577
+msgid "{} games found"
+msgstr "{} igara pronađeno"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 603
+msgid "Select All"
+msgstr "Odaberi sve"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 604
+msgid "Deselect All"
+msgstr "Poništi sve"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 616
+msgid "Close Steam?"
+msgstr "Zatvori Steam?"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 617
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr ""
+"Steam mora biti zatvoren kako bi se promjene primijenile. Ako je Steam pokrenut, izmjene neće imati "
+"učinak."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 620
+msgid "Close Steam and Apply"
+msgstr "Zatvori Steam i Primijeni"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Nije moguće zatvoriti Steam. Molimo zatvorite ga ručno i pokušajte ponovo."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Success"
+msgstr "Uspjeh"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Changes applied successfully!"
+msgstr "Promjene su uspješno primijenjene!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+msgid "OK"
+msgstr "U redu"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 701
+msgid "Games Booster"
+msgstr "Povećivač igara"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 702
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Kombinacija demona i biblioteke koja omogućuje igrama da zatraže skup optimizacija koje će se "
+"privremeno primijeniti na operativni sustav i/ili proces igre."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 719
+msgid "Compositor Settings"
+msgstr "Postavke kompozitora"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 720
+msgid ""
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
+msgstr ""
+"Konfigurira kompozitor za nisku latenciju, omogućuje kidanje i onemogućuje animacije. Minimizira "
+"opterećenje kompozicije i smanjuje kašnjenje unosa."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 735
+msgid "GPU Maximum Performance"
+msgstr "GPU Maksimalna Izvedba"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 736
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
+msgstr ""
+"Prisiljava maksimalni način rada GPU-a (NVIDIA/AMD). Osigurava da grafička kartica koristi "
+"maksimalnu frekvenciju."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 751
+msgid "Stop Akonadi Server"
+msgstr "Zaustavi Akonadi poslužitelj"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 752
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "Zaustavlja PIM podatkovni poslužitelj (Kontact/Thunderbird). Smanjuje opterećenje memorije i diska."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 769
+msgid "GameMode Daemon"
+msgstr "GameMode Daemon"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 770
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "Aktivira demon koji prilagođava CPU, I/O itd. Smanjuje latenciju i povećava broj sličica u sekundi."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 804
+msgid "Configure GameMode"
+msgstr "Konfiguriraj GameMode"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 805
+msgid "Advanced CPU/GPU optimizations for gamemode.ini"
+msgstr "Napredne CPU/GPU optimizacije za gamemode.ini"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 819
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 839
+msgid "Open"
+msgstr "Otvoreno"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 828
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "Odaberite igre za omogućavanje opcije pokretanja 'gamemoderun %command%'."

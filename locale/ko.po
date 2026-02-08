@@ -38,6 +38,14 @@ msgid "An error occurred while updating GRUB."
 msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
 msgid "Already enabled. No changes made."
 msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
+msgid "GameMode Install"
+msgstr "게임 모드 설치"
+msgid "Instaling GameMode, Please wait..."
+msgstr "게임 모드 설치 중, 잠시만 기다려 주십시오..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode가 성공적으로 설치되었습니다!"
+msgid "Failed to install GameMode!"
+msgstr "GameMode 설치에 실패했습니다!"
 # 
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
 msgid "Unavailable: script not found."
@@ -201,3 +209,374 @@ msgid ""
 "Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
 "removing automatic protections against system crashes."
 msgstr "하드웨어 감시 타이머와 TSC 클럭 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 15
+msgid "GameMode Configuration"
+msgstr "게임 모드 구성"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 57
+msgid "Restore Defaults"
+msgstr "기본값 복원"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 62
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 500
+msgid "Close"
+msgstr "닫기"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 108
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 545
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 546
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 573
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 574
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 670
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 672
+msgid "Error"
+msgstr "오류"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 123
+msgid "General Settings"
+msgstr "일반 설정"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 124
+msgid "Power governors and platform profiles."
+msgstr "전원 조절기 및 플랫폼 프로필."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 132
+msgid "CPU Governor: Performance"
+msgstr "CPU 거버너: 성능"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 133
+msgid "Sets the CPU governor to 'performance' when GameMode is active."
+msgstr "GameMode가 활성화될 때 CPU 거버너를 '성능'으로 설정합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 142
+msgid "Platform Profile: Performance"
+msgstr "플랫폼 프로필: 성능"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 143
+msgid "Sets the platform profile to 'performance' for maximum power."
+msgstr "최대 전력을 위한 플랫폼 프로필을 '성능'으로 설정합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 153
+msgid "iGPU Governor: Powersave"
+msgstr "iGPU 거버너: 전력 절약"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 154
+msgid "Sets iGPU governor to powersave when under heavy load to balance power."
+msgstr "무거운 부하가 걸릴 때 전력을 균형 있게 조절하기 위해 iGPU 거버너를 전원 절약 모드로 설정합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 161
+msgid "CPU Optimizations"
+msgstr "CPU 최적화"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 171
+msgid "Pin Cores (P-Cores)"
+msgstr "핀 코어 (P-코어)"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 172
+msgid ""
+"Keeps game threads fixed on high-performance cores, preventing the kernel from moving the game to "
+"slow cores (E-cores) mid-action."
+msgstr "게임 스레드를 고성능 코어에 고정시켜, 커널이 게임을 느린 코어(E-코어)로 이동하는 것을 방지합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 182
+msgid "Park Efficiency Cores"
+msgstr "파크 효율 코어"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 183
+msgid "Temporarily 'turns off' efficiency cores so the OS doesn't try to use them for the game."
+msgstr "효율성 코어를 일시적으로 '끄는' 기능으로, OS가 게임에 사용하지 않도록 합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 193
+msgid "AMD X3D Mode: Frequency"
+msgstr "AMD X3D 모드: 주파수"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 194
+msgid "Shifts processes to frequency CCD while gaming. For 7950X3D/9950X3D."
+msgstr "게임 중 주파수 CCD로 프로세스를 전환합니다. 7950X3D/9950X3D용."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 203
+msgid "Soft Realtime Scheduling"
+msgstr "소프트 실시간 스케줄링"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 204
+msgid "Enables SCHED_ISO on supported kernels for reduced latency. 'auto' enables with 4+ cores."
+msgstr "지원되는 커널에서 지연 시간을 줄이기 위해 SCHED_ISO를 활성화합니다. 'auto'는 4개 이상의 코어에서 활성화됩니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 213
+msgid "Renice Game Process"
+msgstr "게임 프로세스 우선순위 변경"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 214
+msgid "Adjusts process priority for the game. Value 10 gives higher priority (requires gamemode group)."
+msgstr "게임의 프로세스 우선 순위를 조정합니다. 값 10은 더 높은 우선 순위를 부여합니다(게임 모드 그룹이 필요함)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 223
+msgid "I/O Priority: Maximum"
+msgstr "I/O 우선순위: 최대"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 224
+msgid "Sets I/O priority to BE/0 (highest). Improves disk access for the game."
+msgstr "I/O 우선 순위를 BE/0(최고)로 설정합니다. 게임의 디스크 접근성을 향상시킵니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 231
+msgid "GPU Optimizations"
+msgstr "GPU 최적화"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 240
+msgid "Enable GPU Optimizations"
+msgstr "GPU 최적화 활성화"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 241
+msgid "⚠️ Use at your own risk! Enables GPU overclocks and power settings."
+msgstr "⚠️ 사용자는 자신의 책임 하에 사용하세요! GPU 오버클럭 및 전원 설정을 활성화합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 255
+msgid "NVIDIA: Prefer Maximum Performance"
+msgstr "NVIDIA: 최대 성능 선호"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 256
+msgid "Sets GPUPowerMizerMode to 1 (Prefer Maximum Performance). Requires coolbits (X11 Only)."
+msgstr "GPUPowerMizerMode를 1(최대 성능 선호)로 설정합니다. coolbits가 필요합니다(X11 전용)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 264
+msgid "NVIDIA: Core Clock Offset"
+msgstr "NVIDIA: 코어 클럭 오프셋"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 265
+msgid "Adds MHz offset to core clock. Set to enable +100MHz offset (X11 Only)."
+msgstr "코어 클럭에 MHz 오프셋을 추가합니다. +100MHz 오프셋을 활성화하도록 설정합니다 (X11 전용)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 273
+msgid "NVIDIA: Memory Clock Offset"
+msgstr "NVIDIA: 메모리 클럭 오프셋"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 274
+msgid "Adds MHz offset to memory clock. Set to enable +200MHz offset (X11 Only)."
+msgstr "메모리 클럭에 MHz 오프셋을 추가합니다. +200MHz 오프셋을 활성화하도록 설정합니다(X11 전용)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 280
+msgid "NVIDIA Options Unavailable"
+msgstr "NVIDIA 옵션 사용 불가"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 281
+msgid "NVIDIA GameMode optimizations require an X11 session. You are currently using Wayland."
+msgstr "NVIDIA GameMode 최적화는 X11 세션이 필요합니다. 현재 Wayland를 사용하고 있습니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 292
+msgid "AMD: High Performance Level"
+msgstr "AMD: 높은 성능 수준"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 293
+msgid "Sets power_dpm_force_performance_level to 'high'. Forces max clocks."
+msgstr "power_dpm_force_performance_level을 'high'로 설정합니다. 최대 클럭을 강제로 설정합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 300
+msgid "System Settings"
+msgstr "시스템 설정"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 301
+msgid "Screen and system-level optimizations."
+msgstr "화면 및 시스템 수준 최적화."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 309
+msgid "Inhibit Screensaver"
+msgstr "스크린세이버 방지"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 310
+msgid "Prevents screensaver from activating while GameMode is active."
+msgstr "게임 모드가 활성화되어 있는 동안 화면 보호기가 작동하지 않도록 방지합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 319
+msgid "Disable Split Lock Mitigation"
+msgstr "스플릿 잠금 완화 비활성화"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 320
+msgid "Linux has split lock protection that can cause microsecond delays. Disabling removes this 'brake'."
+msgstr "리눅스는 마이크로초 지연을 유발할 수 있는 분할 잠금 보호 기능을 가지고 있습니다. 비활성화하면 이 '브레이크'가 제거됩니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 331
+msgid "Intel Hybrid CPU detected (12th+ gen). Core pinning and parking available."
+msgstr "인텔 하이브리드 CPU가 감지되었습니다 (12세대 이상). 코어 핀 고정 및 주차 가능."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 334
+msgid "AMD X3D Dual CCD detected. V-Cache and X3D mode optimizations available."
+msgstr "AMD X3D 듀얼 CCD 감지됨. V-캐시 및 X3D 모드 최적화 가능."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 335
+msgid "AMD X3D CPU detected. Core pinning available for V-Cache optimization."
+msgstr "AMD X3D CPU가 감지되었습니다. V-Cache 최적화를 위한 코어 핀닝이 가능합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 337
+msgid "Standard CPU detected. Basic scheduling optimizations available."
+msgstr "표준 CPU가 감지되었습니다. 기본 스케줄링 최적화가 가능합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 355
+msgid "{} ⚠️ Overclocking at your own risk!"
+msgstr "{} ⚠️ 오버클럭은 본인의 책임 하에 진행하세요!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 415
+msgid "Restore Defaults?"
+msgstr "기본값 복원?"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 416
+msgid ""
+"This will reset all GameMode configurations to their default values. Custom scripts and "
+"optimizations will be overwritten."
+msgstr "이 작업은 모든 게임 모드 구성을 기본값으로 재설정합니다. 사용자 정의 스크립트와 최적화가 덮어씌워집니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 418
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 619
+msgid "Cancel"
+msgstr "취소"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 419
+msgid "Restore"
+msgstr "복원"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 439
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 827
+msgid "Configure Steam"
+msgstr "스팀 구성하기"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 479
+msgid "Installed Games"
+msgstr "설치된 게임"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 494
+msgid "Apply Changes"
+msgstr "변경 사항 적용"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 524
+msgid "Loading..."
+msgstr "로딩 중..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+msgid "Failed to load games list."
+msgstr "게임 목록을 불러오는 데 실패했습니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 532
+msgid "Error loading games"
+msgstr "게임 로드 오류"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Games Found"
+msgstr "게임이 없습니다"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Steam games found."
+msgstr "스팀 게임을 찾을 수 없습니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 538
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 567
+msgid "0 games found"
+msgstr "0개의 게임이 발견되었습니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 577
+msgid "{} games found"
+msgstr "{} 게임이 발견되었습니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 603
+msgid "Select All"
+msgstr "모두 선택"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 604
+msgid "Deselect All"
+msgstr "모두 선택 해제"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 616
+msgid "Close Steam?"
+msgstr "스팀을 닫으시겠습니까?"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 617
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr "변경 사항을 적용하려면 Steam을 닫아야 합니다. Steam이 실행 중인 경우 수정 사항이 적용되지 않습니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 620
+msgid "Close Steam and Apply"
+msgstr "스팀 닫기 및 적용"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Steam을 닫을 수 없습니다. 수동으로 닫고 다시 시도해 주세요."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Success"
+msgstr "성공"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Changes applied successfully!"
+msgstr "변경 사항이 성공적으로 적용되었습니다!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 701
+msgid "Games Booster"
+msgstr "게임 부스터"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 702
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr "게임이 운영 체제 및/또는 게임 프로세스에 일시적으로 최적화 세트를 요청할 수 있도록 하는 데몬과 라이브러리의 조합."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 719
+msgid "Compositor Settings"
+msgstr "합성기 설정"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 720
+msgid ""
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
+msgstr "지연 시간을 줄이기 위해 합성기를 구성하고, 화면 찢어짐을 허용하며 애니메이션을 비활성화합니다. 합성 오버헤드를 최소화하고 입력 지연을 줄입니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 735
+msgid "GPU Maximum Performance"
+msgstr "GPU 최대 성능"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 736
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
+msgstr "최대 GPU 성능 모드 강제 적용(NVIDIA/AMD). 그래픽 카드가 최대 주파수를 사용하도록 보장합니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 751
+msgid "Stop Akonadi Server"
+msgstr "Akonadi 서버 중지"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 752
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "PIM 데이터 서버(Kontact/Thunderbird)를 중지합니다. 메모리 및 디스크 오버헤드를 줄입니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 769
+msgid "GameMode Daemon"
+msgstr "게임 모드 데몬"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 770
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "CPU, I/O 등을 조정하는 데몬을 활성화합니다. 지연 시간을 줄이고 프레임 속도를 증가시킵니다."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 804
+msgid "Configure GameMode"
+msgstr "게임 모드 구성"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 805
+msgid "Advanced CPU/GPU optimizations for gamemode.ini"
+msgstr "게임 모드.ini를 위한 고급 CPU/GPU 최적화"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 819
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 839
+msgid "Open"
+msgstr "열기"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 828
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "게임을 선택하여 'gamemoderun %command%' 실행 옵션을 활성화합니다."

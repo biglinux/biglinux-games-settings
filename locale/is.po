@@ -38,6 +38,14 @@ msgid "An error occurred while updating GRUB."
 msgstr "Villa kom að uppfæra GRUB."
 msgid "Already enabled. No changes made."
 msgstr "Nú þegar virkt. Engar breytingar gerðar."
+msgid "GameMode Install"
+msgstr "Leikjaskipulag Uppsetning"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Installing GameMode, Please wait..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode var sett upp með góðum árangri!"
+msgid "Failed to install GameMode!"
+msgstr "Ekki tókst að setja upp GameMode!"
 # 
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
 msgid "Unavailable: script not found."
@@ -205,3 +213,386 @@ msgid ""
 msgstr ""
 "Veitir harðvara-vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
 "sjálfvirkar verndaraðgerðir gegn kerfisfalli."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 15
+msgid "GameMode Configuration"
+msgstr "Leikjaskipulag"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 57
+msgid "Restore Defaults"
+msgstr "Endurheimta sjálfgefin gildi"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 62
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 500
+msgid "Close"
+msgstr "Lokaðu"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 108
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 545
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 546
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 573
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 574
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 670
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 672
+msgid "Error"
+msgstr "Villa"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 123
+msgid "General Settings"
+msgstr "Almennar stillingar"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 124
+msgid "Power governors and platform profiles."
+msgstr "Orku stjórnarar og pallur prófílar."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 132
+msgid "CPU Governor: Performance"
+msgstr "CPU Stjórnandi: Frammistaða"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 133
+msgid "Sets the CPU governor to 'performance' when GameMode is active."
+msgstr "Stillir CPU stjórnanda í 'frammistöðu' þegar GameMode er virk."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 142
+msgid "Platform Profile: Performance"
+msgstr "sniðsprofíl: frammistaða"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 143
+msgid "Sets the platform profile to 'performance' for maximum power."
+msgstr "Stillir prófíl pallsins í 'frammistöðu' fyrir hámarks afl."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 153
+msgid "iGPU Governor: Powersave"
+msgstr "iGPU Stjórnandi: Orkusparnaður"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 154
+msgid "Sets iGPU governor to powersave when under heavy load to balance power."
+msgstr "Setur iGPU stjórnanda í orkusparnað þegar undir miklu álagi til að jafna orku."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 161
+msgid "CPU Optimizations"
+msgstr "CPU hámarkanir"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 171
+msgid "Pin Cores (P-Cores)"
+msgstr "Festir Kjarna (P-Kjarna)"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 172
+msgid ""
+"Keeps game threads fixed on high-performance cores, preventing the kernel from moving the game to "
+"slow cores (E-cores) mid-action."
+msgstr ""
+"Heldur leikþræði á háþróuðum kjarna, kemur í veg fyrir að kerfið flytji leikinn á hæga kjarna "
+"(E-kjarna) meðan á aðgerð stendur."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 182
+msgid "Park Efficiency Cores"
+msgstr "Park skilvirkni kjarna"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 183
+msgid "Temporarily 'turns off' efficiency cores so the OS doesn't try to use them for the game."
+msgstr "Slær tímabundið 'af' afköst kjarna svo stýrikerfið reyni ekki að nota þá fyrir leikinn."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 193
+msgid "AMD X3D Mode: Frequency"
+msgstr "AMD X3D Still: Tíðni"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 194
+msgid "Shifts processes to frequency CCD while gaming. For 7950X3D/9950X3D."
+msgstr "Færir ferla yfir í tíðni CCD meðan á leikjum stendur. Fyrir 7950X3D/9950X3D."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 203
+msgid "Soft Realtime Scheduling"
+msgstr "Mjúk rauntíma áætlunargerð"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 204
+msgid "Enables SCHED_ISO on supported kernels for reduced latency. 'auto' enables with 4+ cores."
+msgstr "Virkjar SCHED_ISO á studdum kjarna fyrir minni töf. 'auto' virkjar með 4+ kjarna."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 213
+msgid "Renice Game Process"
+msgstr "Endurðu leikferlið"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 214
+msgid "Adjusts process priority for the game. Value 10 gives higher priority (requires gamemode group)."
+msgstr "Stillir forgangsforgangs fyrir leikinn. Gildi 10 gefur hærri forgang (krafist leikjamóts hóps)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 223
+msgid "I/O Priority: Maximum"
+msgstr "I/O forgangur: Hámark"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 224
+msgid "Sets I/O priority to BE/0 (highest). Improves disk access for the game."
+msgstr "Setur I/O forgang til BE/0 (hæsta). Bætir disk aðgang að leiknum."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 231
+msgid "GPU Optimizations"
+msgstr "GPU hámarkanir"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 240
+msgid "Enable GPU Optimizations"
+msgstr "Virkja GPU hámarkanir"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 241
+msgid "⚠️ Use at your own risk! Enables GPU overclocks and power settings."
+msgstr "⚠️ Notaðu á eigin ábyrgð! Vinnur með GPU ofklukkun og aflstillingar."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 255
+msgid "NVIDIA: Prefer Maximum Performance"
+msgstr "NVIDIA: Veldu hámarksframmistöðu"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 256
+msgid "Sets GPUPowerMizerMode to 1 (Prefer Maximum Performance). Requires coolbits (X11 Only)."
+msgstr "Setur GPUPowerMizerMode í 1 (Krafa um hámarks frammistöðu). Krafist coolbits (bara X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 264
+msgid "NVIDIA: Core Clock Offset"
+msgstr "NVIDIA: Kjarna Klukka Afsláttur"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 265
+msgid "Adds MHz offset to core clock. Set to enable +100MHz offset (X11 Only)."
+msgstr "Bætir MHz forskoti við kjarna klukku. Stilltu til að virkja +100MHz forskot (X11 aðeins)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 273
+msgid "NVIDIA: Memory Clock Offset"
+msgstr "NVIDIA: Minnis Tími Afsláttur"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 274
+msgid "Adds MHz offset to memory clock. Set to enable +200MHz offset (X11 Only)."
+msgstr "Bætir MHz forskoti við minni klukku. Stilltu á að virkja +200MHz forskot (bara X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 280
+msgid "NVIDIA Options Unavailable"
+msgstr "NVIDIA valkostir ekki í boði"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 281
+msgid "NVIDIA GameMode optimizations require an X11 session. You are currently using Wayland."
+msgstr "NVIDIA GameMode hámarkanir krafast X11 sesjón. Þú ert núna að nota Wayland."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 292
+msgid "AMD: High Performance Level"
+msgstr "AMD: Hár Performance Stig."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 293
+msgid "Sets power_dpm_force_performance_level to 'high'. Forces max clocks."
+msgstr "Setur power_dpm_force_performance_level í 'hátt'. Þvingar hámarks klukkur."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 300
+msgid "System Settings"
+msgstr "Kerfiskurstillingar"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 301
+msgid "Screen and system-level optimizations."
+msgstr "Snið- og kerfisstig hámarkanir."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 309
+msgid "Inhibit Screensaver"
+msgstr "Hindra skjávarn."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 310
+msgid "Prevents screensaver from activating while GameMode is active."
+msgstr "Hindrar skjávarnar frá því að virkjast meðan GameMode er virkt."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 319
+msgid "Disable Split Lock Mitigation"
+msgstr "Aftengja aðgerðir gegn Split Lock"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 320
+msgid "Linux has split lock protection that can cause microsecond delays. Disabling removes this 'brake'."
+msgstr ""
+"Linux hefur klofinn lás vernd sem getur valdið örfáum sekúndu seinkunum. Að slökkva á þessu "
+"fjöðrunni fjarlægir þessa 'hemlun'."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 331
+msgid "Intel Hybrid CPU detected (12th+ gen). Core pinning and parking available."
+msgstr "Intel Hybrid CPU greindur (12. kynslóð+). Kjarna festing og bílastæði í boði."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 334
+msgid "AMD X3D Dual CCD detected. V-Cache and X3D mode optimizations available."
+msgstr "AMD X3D tví CCD greind. V-Cache og X3D hamstillan eru í boði."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 335
+msgid "AMD X3D CPU detected. Core pinning available for V-Cache optimization."
+msgstr "AMD X3D CPU greindur. Kjarna festing í boði fyrir V-Cache hámarkun."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 337
+msgid "Standard CPU detected. Basic scheduling optimizations available."
+msgstr "Standað CPU greint. Grunn tímaskipulagshagrun er í boði."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 355
+msgid "{} ⚠️ Overclocking at your own risk!"
+msgstr "{} ⚠️ Yfirklukka á eigin ábyrgð!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 415
+msgid "Restore Defaults?"
+msgstr "Endurðu sjálfgefin?"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 416
+msgid ""
+"This will reset all GameMode configurations to their default values. Custom scripts and "
+"optimizations will be overwritten."
+msgstr ""
+"Þetta mun endurstilla allar GameMode stillingar í þeirra sjálfgefnar gildi. Sérsniðnar skriftur og "
+"hámarkanir verða skrifaðar yfir."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 418
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 619
+msgid "Cancel"
+msgstr "Hætta við"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 419
+msgid "Restore"
+msgstr "Endurheimta"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 439
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 827
+msgid "Configure Steam"
+msgstr "Stilltuðu Steam"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 479
+msgid "Installed Games"
+msgstr "Uppsettar leikir"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 494
+msgid "Apply Changes"
+msgstr "Beita breytingar"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 524
+msgid "Loading..."
+msgstr "Hleð..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+msgid "Failed to load games list."
+msgstr "Mistók að hlaða leikjalista."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 532
+msgid "Error loading games"
+msgstr "Villa að hlaða leikjum"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Games Found"
+msgstr "Engin leikur fundin"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Steam games found."
+msgstr "Engin Steam fannst ekki."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 538
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 567
+msgid "0 games found"
+msgstr "0 leiki fundin"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 577
+msgid "{} games found"
+msgstr "{} leikir fundnir"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 603
+msgid "Select All"
+msgstr "Veljaðu allt"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 604
+msgid "Deselect All"
+msgstr "Fellaðu allt"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 616
+msgid "Close Steam?"
+msgstr "Loka Steam?"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 617
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr ""
+"Steam verður að vera lokað til að breytingar geti tekið gildi. Ef Steam er í gangi, munu "
+"breytingarnar ekki taka gildi."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 620
+msgid "Close Steam and Apply"
+msgstr "Lokaðu Steam og beittu"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Gat ekki að loka Steam. Vinsamlegast lokaðu því handvirkt og reyndu aftur."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Success"
+msgstr "Sigrún"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Changes applied successfully!"
+msgstr "breytingar hafa verið gerðar með góðum árangri!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 701
+msgid "Games Booster"
+msgstr "Leikjabooster"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 702
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Samsetning af daemoni og bókasafni sem leyfir leikjum að biðja um að sett af hagræðingum verði "
+"tímabundið beitt á stýrikerfið og/eða leikferlið."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 719
+msgid "Compositor Settings"
+msgstr "Samsetningar Compositor"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 720
+msgid ""
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
+msgstr ""
+"Stillir stillir fyrir lága seinkun, leyfir að rifa og slokkar á hreyfingum. Minnkar samsetningu "
+"yfirhöfuð og dregur úr inntak seinkun."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 735
+msgid "GPU Maximum Performance"
+msgstr "GPU hámarksframmistaða"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 736
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
+msgstr "Þvingar hámarks GPU frammistöðu mód (NVIDIA/AMD). Tryggir að skjákortið noti hámarks tíðni."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 751
+msgid "Stop Akonadi Server"
+msgstr "Stöðvaðu Akonadi þjóninn"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 752
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "Stöðvar PIM gagnaþjóninn (Kontact/Thunderbird). Minnkar minni- og diskauppbót."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 769
+msgid "GameMode Daemon"
+msgstr "Leikjaskipulag Daemon"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 770
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "Virkjar daemón sem stillir CPU, I/O o.s.frv. Minnkar töf og eykur rammahraða."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 804
+msgid "Configure GameMode"
+msgstr "Stillir leikhamar"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 805
+msgid "Advanced CPU/GPU optimizations for gamemode.ini"
+msgstr "Aðgerðir fyrir háþróaða CPU/GPU fyrir gamemode.ini"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 819
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 839
+msgid "Open"
+msgstr "Opna"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 828
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "Veldu leiki til að virkja 'gamemoderun %command%' upphafsvalkostinn."

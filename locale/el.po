@@ -38,6 +38,14 @@ msgid "An error occurred while updating GRUB."
 msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του GRUB."
 msgid "Already enabled. No changes made."
 msgstr "Ήδη ενεργοποιημένο. Δεν έγιναν αλλαγές."
+msgid "GameMode Install"
+msgstr "Εγκατάσταση Λειτουργίας Παιχνιδιού"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Εγκατάσταση του GameMode, Παρακαλώ περιμένετε..."
+msgid "GameMode installed successfully!"
+msgstr "Το GameMode εγκαταστάθηκε με επιτυχία!"
+msgid "Failed to install GameMode!"
+msgstr "Αποτυχία εγκατάστασης του GameMode!"
 # 
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 236
 msgid "Unavailable: script not found."
@@ -211,3 +219,407 @@ msgid ""
 msgstr ""
 "Απενεργοποιεί τα συστήματα παρακολούθησης υλικού και πηγής ρολογιού TSC, διατηρώντας υψηλή απόδοση "
 "αλλά αφαιρώντας τις αυτόματες προστασίες κατά των κρασαρισμάτων του συστήματος."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 15
+msgid "GameMode Configuration"
+msgstr "Ρύθμιση Λειτουργίας Παιχνιδιού"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 57
+msgid "Restore Defaults"
+msgstr "Επαναφορά προεπιλογών"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 62
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 500
+msgid "Close"
+msgstr "Κλείσιμο"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 108
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 545
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 546
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 573
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 574
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 670
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 672
+msgid "Error"
+msgstr "Σφάλμα"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 123
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 124
+msgid "Power governors and platform profiles."
+msgstr "Διαχειριστές ισχύος και προφίλ πλατφόρμας."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 132
+msgid "CPU Governor: Performance"
+msgstr "CPU Governor: Απόδοση"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 133
+msgid "Sets the CPU governor to 'performance' when GameMode is active."
+msgstr "Ρυθμίζει τον κυβερνήτη CPU σε 'απόδοση' όταν είναι ενεργό το GameMode."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 142
+msgid "Platform Profile: Performance"
+msgstr "Προφίλ Πλατφόρμας: Απόδοση"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 143
+msgid "Sets the platform profile to 'performance' for maximum power."
+msgstr "Ρυθμίζει το προφίλ πλατφόρμας σε 'απόδοση' για μέγιστη ισχύ."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 153
+msgid "iGPU Governor: Powersave"
+msgstr "iGPU Κυβερνήτης: Εξοικονόμηση Ενέργειας"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 154
+msgid "Sets iGPU governor to powersave when under heavy load to balance power."
+msgstr ""
+"Ρυθμίζει τον κυβερνήτη iGPU σε εξοικονόμηση ενέργειας όταν είναι υπό βαριά φόρτιση για να "
+"ισορροπήσει την κατανάλωση ενέργειας."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 161
+msgid "CPU Optimizations"
+msgstr "Βελτιστοποιήσεις CPU"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 171
+msgid "Pin Cores (P-Cores)"
+msgstr "Πυρήνες P (P-Cores)"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 172
+msgid ""
+"Keeps game threads fixed on high-performance cores, preventing the kernel from moving the game to "
+"slow cores (E-cores) mid-action."
+msgstr ""
+"Διατηρεί τα νήματα παιχνιδιών σταθερά σε πυρήνες υψηλής απόδοσης, αποτρέποντας τον πυρήνα από το να "
+"μεταφέρει το παιχνίδι σε αργούς πυρήνες (E-cores) κατά τη διάρκεια της δράσης."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 182
+msgid "Park Efficiency Cores"
+msgstr "Πυρήνες Απόδοσης Park"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 183
+msgid "Temporarily 'turns off' efficiency cores so the OS doesn't try to use them for the game."
+msgstr ""
+"Απενεργοποιεί προσωρινά τους πυρήνες αποδοτικότητας ώστε το λειτουργικό σύστημα να μην προσπαθεί να "
+"τους χρησιμοποιήσει για το παιχνίδι."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 193
+msgid "AMD X3D Mode: Frequency"
+msgstr "Λειτουργία AMD X3D: Συχνότητα"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 194
+msgid "Shifts processes to frequency CCD while gaming. For 7950X3D/9950X3D."
+msgstr "Μεταφέρει τις διαδικασίες στη συχνότητα CCD κατά τη διάρκεια του παιχνιδιού. Για 7950X3D/9950X3D."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 203
+msgid "Soft Realtime Scheduling"
+msgstr "Μαλακός Προγραμματισμός Πραγματικού Χρόνου"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 204
+msgid "Enables SCHED_ISO on supported kernels for reduced latency. 'auto' enables with 4+ cores."
+msgstr ""
+"Ενεργοποιεί το SCHED_ISO σε υποστηριζόμενους πυρήνες για μειωμένη καθυστέρηση. 'auto' ενεργοποιεί "
+"με 4+ πυρήνες."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 213
+msgid "Renice Game Process"
+msgstr "Αναβάθμιση διαδικασίας παιχνιδιού"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 214
+msgid "Adjusts process priority for the game. Value 10 gives higher priority (requires gamemode group)."
+msgstr ""
+"Ρυθμίζει την προτεραιότητα διαδικασίας για το παιχνίδι. Η τιμή 10 δίνει υψηλότερη προτεραιότητα "
+"(απαιτεί ομάδα παιχνιδιού)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 223
+msgid "I/O Priority: Maximum"
+msgstr "Προτεραιότητα I/O: Μέγιστη"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 224
+msgid "Sets I/O priority to BE/0 (highest). Improves disk access for the game."
+msgstr ""
+"Ρυθμίζει την προτεραιότητα I/O σε BE/0 (υψηλότερη). Βελτιώνει την πρόσβαση στο δίσκο για το "
+"παιχνίδι."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 231
+msgid "GPU Optimizations"
+msgstr "Βελτιστοποιήσεις GPU"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 240
+msgid "Enable GPU Optimizations"
+msgstr "Ενεργοποίηση Βελτιστοποιήσεων GPU"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 241
+msgid "⚠️ Use at your own risk! Enables GPU overclocks and power settings."
+msgstr "⚠️ Χρησιμοποιείτε με δική σας ευθύνη! Ενεργοποιεί τις υπερχρονίσεις GPU και τις ρυθμίσεις ισχύος."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 255
+msgid "NVIDIA: Prefer Maximum Performance"
+msgstr "NVIDIA: Προτίμηση Μέγιστης Απόδοσης"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 256
+msgid "Sets GPUPowerMizerMode to 1 (Prefer Maximum Performance). Requires coolbits (X11 Only)."
+msgstr "Ορίζει το GPUPowerMizerMode σε 1 (Προτιμήστε τη Μέγιστη Απόδοση). Απαιτεί coolbits (Μόνο X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 264
+msgid "NVIDIA: Core Clock Offset"
+msgstr "NVIDIA: Αντιστροφή Ρολογιού Πυρήνα"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 265
+msgid "Adds MHz offset to core clock. Set to enable +100MHz offset (X11 Only)."
+msgstr ""
+"Προσθέτει απόκλιση MHz στον πυρήνα ρολογιού. Ρυθμίστε για να ενεργοποιήσετε απόκλιση +100MHz (Μόνο "
+"X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 273
+msgid "NVIDIA: Memory Clock Offset"
+msgstr "NVIDIA: Αντιστροφή Ρολογιού Μνήμης"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 274
+msgid "Adds MHz offset to memory clock. Set to enable +200MHz offset (X11 Only)."
+msgstr "Προσθέτει απόκλιση MHz στη μνήμη. Ρυθμίστε για να ενεργοποιήσετε απόκλιση +200MHz (Μόνο X11)."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 280
+msgid "NVIDIA Options Unavailable"
+msgstr "Οι επιλογές NVIDIA δεν είναι διαθέσιμες."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 281
+msgid "NVIDIA GameMode optimizations require an X11 session. You are currently using Wayland."
+msgstr ""
+"Οι βελτιστοποιήσεις του NVIDIA GameMode απαιτούν μια συνεδρία X11. Αυτή τη στιγμή χρησιμοποιείτε το "
+"Wayland."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 292
+msgid "AMD: High Performance Level"
+msgstr "AMD: Υψηλό Επίπεδο Απόδοσης"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 293
+msgid "Sets power_dpm_force_performance_level to 'high'. Forces max clocks."
+msgstr "Ορίζει το power_dpm_force_performance_level σε 'υψηλό'. Εξαναγκάζει τις μέγιστες ταχύτητες ρολογιού."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 300
+msgid "System Settings"
+msgstr "Ρυθμίσεις Συστήματος"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 301
+msgid "Screen and system-level optimizations."
+msgstr "Βελτιστοποιήσεις οθόνης και συστήματος."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 309
+msgid "Inhibit Screensaver"
+msgstr "Απενεργοποίηση Προστασίας Οθόνης"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 310
+msgid "Prevents screensaver from activating while GameMode is active."
+msgstr "Αποτρέπει την ενεργοποίηση του προγράμματος προστασίας οθόνης ενώ είναι ενεργό το GameMode."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 319
+msgid "Disable Split Lock Mitigation"
+msgstr "Απενεργοποίηση μετριασμού Split Lock"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 320
+msgid "Linux has split lock protection that can cause microsecond delays. Disabling removes this 'brake'."
+msgstr ""
+"Το Linux έχει προστασία από διαχωρισμένα κλειδώματα που μπορεί να προκαλέσει καθυστερήσεις "
+"μικροδευτερολέπτων. Η απενεργοποίηση αφαιρεί αυτό το 'φρένο'."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 331
+msgid "Intel Hybrid CPU detected (12th+ gen). Core pinning and parking available."
+msgstr "Ανιχνεύθηκε επεξεργαστής Intel Hybrid (12η+ γενιά). Διαθέσιμη η δέσμευση και η στάθμευση πυρήνων."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 334
+msgid "AMD X3D Dual CCD detected. V-Cache and X3D mode optimizations available."
+msgstr "Ανιχνεύθηκε AMD X3D Dual CCD. Διαθέσιμες βελτιστοποιήσεις V-Cache και X3D mode."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 335
+msgid "AMD X3D CPU detected. Core pinning available for V-Cache optimization."
+msgstr "Ανιχνεύθηκε επεξεργαστής AMD X3D. Διαθέσιμη η δέσμευση πυρήνα για βελτιστοποίηση V-Cache."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 337
+msgid "Standard CPU detected. Basic scheduling optimizations available."
+msgstr "Ανιχνεύθηκε τυπική CPU. Διαθέσιμες βασικές βελτιστοποιήσεις προγραμματισμού."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 355
+msgid "{} ⚠️ Overclocking at your own risk!"
+msgstr "{} ⚠️ Υπερσυχνότητα με δική σας ευθύνη!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 415
+msgid "Restore Defaults?"
+msgstr "Επαναφορά προεπιλογών;"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 416
+msgid ""
+"This will reset all GameMode configurations to their default values. Custom scripts and "
+"optimizations will be overwritten."
+msgstr ""
+"Αυτό θα επαναφέρει όλες τις ρυθμίσεις GameMode στις προεπιλεγμένες τιμές τους. Τα προσαρμοσμένα "
+"σενάρια και οι βελτιστοποιήσεις θα αντικατασταθούν."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 418
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 619
+msgid "Cancel"
+msgstr "Ακύρωση"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 419
+msgid "Restore"
+msgstr "Αποκατάσταση"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 439
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 827
+msgid "Configure Steam"
+msgstr "Ρυθμίστε το Steam"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 479
+msgid "Installed Games"
+msgstr "Εγκατεστημένα Παιχνίδια"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 494
+msgid "Apply Changes"
+msgstr "Εφαρμογή Αλλαγών"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 524
+msgid "Loading..."
+msgstr "Φόρτωση..."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 531
+msgid "Failed to load games list."
+msgstr "Αποτυχία φόρτωσης λίστας παιχνιδιών."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 532
+msgid "Error loading games"
+msgstr "Σφάλμα κατά τη φόρτωση παιχνιδιών"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Games Found"
+msgstr "Δεν βρέθηκαν παιχνίδια"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 537
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 566
+msgid "No Steam games found."
+msgstr "Δεν βρέθηκαν παιχνίδια Steam."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 538
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 567
+msgid "0 games found"
+msgstr "0 παιχνίδια βρέθηκαν"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 577
+msgid "{} games found"
+msgstr "{} παιχνίδια βρέθηκαν"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 603
+msgid "Select All"
+msgstr "Επιλογή όλων"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 604
+msgid "Deselect All"
+msgstr "Αποεπιλογή όλων"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 616
+msgid "Close Steam?"
+msgstr "Κλείσιμο του Steam;"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 617
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr ""
+"Η Steam πρέπει να κλείσει για να εφαρμοστούν οι αλλαγές. Αν η Steam είναι ανοιχτή, οι τροποποιήσεις "
+"δεν θα έχουν αποτέλεσμα."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 620
+msgid "Close Steam and Apply"
+msgstr "Κλείστε το Steam και Εφαρμόστε"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 650
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Δεν ήταν δυνατή η κλείσιμο του Steam. Παρακαλώ κλείστε το χειροκίνητα και δοκιμάστε ξανά."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Success"
+msgstr "Επιτυχία"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 665
+msgid "Changes applied successfully!"
+msgstr "Οι αλλαγές εφαρμόστηκαν με επιτυχία!"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 666
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 680
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 701
+msgid "Games Booster"
+msgstr "Ενισχυτής Παιχνιδιών"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 702
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Συνδυασμός δαίμονα και βιβλιοθήκης που επιτρέπει στα παιχνίδια να ζητούν ένα σύνολο "
+"βελτιστοποιήσεων να εφαρμοστούν προσωρινά στο λειτουργικό σύστημα και/ή στη διαδικασία του "
+"παιχνιδιού."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 719
+msgid "Compositor Settings"
+msgstr "Ρυθμίσεις Συνθέτη"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 720
+msgid ""
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
+msgstr ""
+"Ρυθμίζει τον σύνθετο για χαμηλή καθυστέρηση, επιτρέπει το σκίσιμο και απενεργοποιεί τις κινούμενες "
+"εικόνες. Ελαχιστοποιεί την επιβάρυνση του σύνθετου και μειώνει την καθυστέρηση εισόδου."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 735
+msgid "GPU Maximum Performance"
+msgstr "Μέγιστη Απόδοση GPU"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 736
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
+msgstr ""
+"Επιβάλλει τη μέγιστη απόδοση GPU (NVIDIA/AMD). Διασφαλίζει ότι η κάρτα γραφικών χρησιμοποιεί τη "
+"μέγιστη συχνότητα."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 751
+msgid "Stop Akonadi Server"
+msgstr "Σταματήστε τον διακομιστή Akonadi"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 752
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr ""
+"Σταματά τον διακομιστή δεδομένων PIM (Kontact/Thunderbird). Μειώνει τη μνήμη και την επιβάρυνση "
+"δίσκου."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 769
+msgid "GameMode Daemon"
+msgstr "GameMode Daemon"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 770
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr ""
+"Ενεργοποιεί το daemon που ρυθμίζει την CPU, I/O, κ.λπ. Μειώνει την καθυστέρηση και αυξάνει τον "
+"ρυθμό καρέ."
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 804
+msgid "Configure GameMode"
+msgstr "Ρυθμίστε το GameMode"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 805
+msgid "Advanced CPU/GPU optimizations for gamemode.ini"
+msgstr "Προηγμένες βελτιστοποιήσεις CPU/GPU για το gamemode.ini"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 819
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 839
+msgid "Open"
+msgstr "Άνοιγμα"
+# 
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 828
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "Επιλέξτε παιχνίδια για να ενεργοποιήσετε την επιλογή εκκίνησης 'gamemoderun %command%'."

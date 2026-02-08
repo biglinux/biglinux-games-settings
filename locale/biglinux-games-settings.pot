@@ -201,7 +201,7 @@ msgstr  ""
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/main.py, line: 229
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 14
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 695
 msgid   "Performance"
 msgstr  ""
@@ -209,7 +209,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 16
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 15
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 695
 msgid   "BigLinux performance tweaks."
 msgstr  ""
@@ -217,7 +217,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 34
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 23
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 711
 msgid   "Disable Visual Effects"
 msgstr  ""
@@ -225,7 +225,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 35
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 24
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 712
 msgid   "Disables KWin visual effects (blur, shadows, animations). Reduces "
         "GPU load and frees memory."
@@ -234,7 +234,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 50
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 31
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 727
 msgid   "CPU Maximum Performance"
 msgstr  ""
@@ -242,7 +242,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 51
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 32
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 728
 msgid   "Forces maximum processor performance mode. Ensures the processor "
         "uses maximum frequency."
@@ -251,7 +251,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 66
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 39
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 743
 msgid   "Disable Baloo Indexer"
 msgstr  ""
@@ -259,7 +259,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 67
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 40
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 744
 msgid   "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr  ""
@@ -267,7 +267,7 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 74
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 47
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 759
 msgid   "Unload S.M.A.R.T Monitor"
 msgstr  ""
@@ -275,30 +275,30 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-games-settings.pot (biglinux-games-settings)  #-#-#-#-#
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 75
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 48
 # File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/games_page_old.py, line: 760
 msgid   "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr  ""
 
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 83
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 56
 msgid   "Meltdown Mitigations off"
 msgstr  ""
 
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 84
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 57
 #, python-brace-format
 msgid   "Using mitigations=off will make your machine faster and less secure! "
         "For more information see: <a href='{l}'>{l}</a>"
 msgstr  ""
 
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 91
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 64
 msgid   "noWatchdog"
 msgstr  ""
 
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 92
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/performance_page.py, line: 65
 msgid   "Disables the hardware watchdog and TSC clocksource systems, "
         "maintaining high performance but removing automatic protections "
         "against system crashes."
