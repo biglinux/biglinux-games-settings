@@ -1,6 +1,5 @@
 from base_page import BaseSettingsPage, _
 
-
 class PerformancePage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
@@ -18,16 +17,6 @@ class PerformancePage(BaseSettingsPage):
         )
         content.append(group)
 
-        # # Games
-        # games_group = self.create_group(
-        #     _("Games Booster"),
-        #     _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
-        #     "perf_games"
-        # )
-        # content.append(games_group)
-
-
-        ## Performance ##
         # Disable Visual Effects
         self.create_row(
             group,
@@ -36,14 +25,6 @@ class PerformancePage(BaseSettingsPage):
             "disableVisualEffects",
             "disable-visual-effects-symbolic"
         )
-        # # Compositor Settings
-        # self.create_row(
-        #     group,
-        #     _("Compositor Settings"),
-        #     _("Configures compositor for low latency, allows tearing and disables animations. Minimizes compositing overhead and reduces input lag."),
-        #     "compositorSettings",
-        #     "compositor-settings-symbolic"
-        # )
         # CPU Maximum Performance
         self.create_row(
             group,
@@ -52,14 +33,6 @@ class PerformancePage(BaseSettingsPage):
             "cpuMaximumPerformance",
             "cpu-maximum-performance-symbolic"
         )
-        # GPU Maximum Performance
-        # self.create_row(
-        #     group,
-        #     _("GPU Maximum Performance"),
-        #     _("Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."),
-        #     "gpuMaximumPerformance",
-        #     "gpu-maximum-performance-symbolic"
-        # )
         # Disable Baloo Indexer
         self.create_row(
             group,
@@ -93,23 +66,5 @@ class PerformancePage(BaseSettingsPage):
             "noWatchdog",
             "watchdog-symbolic"
         )
-
-        # ## GAMES ##
-        # # Game Mode Daemon
-        # gameMode = self.create_row(
-        #     games_group,
-        #     _("GameMode Daemon"),
-        #     _("Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."),
-        #     "gamemodeDaemon",
-        #     "gamemode-daemon-symbolic"
-        # )
-        # # self.create_sub_row(
-        # #     games_group,
-        # #     _("Sub‑Feature B"),
-        # #     _("Option B for the main feature."),
-        # #     "gamemodeDaemon",
-        # #     "gamemode-daemon-symbolic",
-        # #     gameMode
-        # # )
 
         self.sync_all_switches()
