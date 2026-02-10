@@ -165,12 +165,12 @@ msgid   "Changing {} to {}"
 msgstr  ""
 
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 424
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 423
 msgid   "ERROR: Failed to change {} to {}"
 msgstr  ""
 
 #
-# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 428
+# File: biglinux-games-settings/usr/share/biglinux/biglinux-games-settings/base_page.py, line: 427
 msgid   "Failed to change setting: {}"
 msgstr  ""
 
